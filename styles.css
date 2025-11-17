@@ -24,10 +24,24 @@
 
  Insert all your glorious CSS styles below! */
 /* header font style */
-
+/* im-fell-french-canon-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'IM Fell French Canon';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/im-fell-french-canon-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 /* body font style */
-
+/* comme-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Comme';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/comme-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 /* fall color vibes */
 :root {
