@@ -30,7 +30,7 @@
   font-family: 'IM Fell French Canon';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/im-fell-french-canon-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/im-fell-french-canon-v21-latin-regular.woff2") format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* body font style */
@@ -40,7 +40,7 @@
   font-family: 'Comme';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/comme-v4-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("/fonts/comme-v4-latin-regular.woff2") format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* fall color vibes */
