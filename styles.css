@@ -23,3 +23,141 @@
        
 
  Insert all your glorious CSS styles below! */
+/* header font style */
+
+
+/* body font style */
+
+
+/* fall color vibes */
+:root {
+    --orange: #E28F48;
+    --light-orange: #F7D9B4;
+    --brown: #8B5A2B;
+    --cream: #FFF4E6;
+    --dark: #4A2E1F;
+
+    --min-size: 1rem;
+    --max-size: 1.4rem;
+    --fluid-type: clamp(var(--min-size), 2vw + 1rem, var(--max-size));
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: var(--cream);
+    color: var(--dark);
+}
+
+/* just for the header */
+header {
+    background: var(--orange);
+    padding: 20px;
+    color: white;
+}
+
+.site-title {
+    margin: 0 0 10px;
+    font-size: 2rem;
+}
+
+/* nav bar section */
+nav ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: var(--fluid-type);
+}
+
+nav a:hover,
+nav a.active {
+    color: var(--light-orange);
+    font-weight: bold;
+}
+
+.hero {
+    padding: 40px;
+    text-align: center;
+    background: var(--light-orange);
+    border-bottom: 4px solid var(--orange);
+}
+
+/* grid stuff */
+.recipe-grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.recipe-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* call to actions */
+.upload-cta {
+    text-align: center;
+    padding: 30px;
+    background: var(--brown);
+    color: white;
+}
+
+.cta-button {
+    background: var(--orange);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: var(--light-orange);
+    color: var(--dark);
+}
+
+/* form stuff */
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid var(--brown);
+    background: white;
+}
+
+.list-block {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-block li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--brown);
+}
+
+/* just for the footer part */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--dark);
+    color: white;
+    margin-top: 40px;
+}
