@@ -127,19 +127,54 @@ nav a.active {
 }
 
 /* grid stuff */
+
+.trending-recipes {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.trending-intro {
+ font-family: 'Comme';
+  margin-bottom: 20px;
+}
+
 .recipe-grid {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
 }
 
 .recipe-card {
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
 }
+
+.recipe-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+   font-family: 'IM Fell French Canon';
+  color: #2D68BA;
+  margin-bottom: 5px;
+}
+
+.recipe-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
 
 /* call to actions */
 .upload-cta {
