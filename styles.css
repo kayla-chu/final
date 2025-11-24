@@ -152,7 +152,18 @@ nav a.active {
   padding: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .2s, box-shadow .2s;
 }
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
 
 .recipe-card img {
   width: 100%;
