@@ -253,6 +253,36 @@ nav a.active {
   margin-left: 20px;
 }
 
+.tab-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.tab {
+  padding: 10px 16px;
+  background: #f2f6fc;
+  border: 2px solid #d7e3f7;
+  border-radius: 8px;
+  font-family: 'Ledger', serif;
+  font-size: clamp(0.9rem, 1.4vw, 1.1rem);
+  color: #2D68BA;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.tab:hover {
+  background: #2D68BA;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.category-block {
+  scroll-margin-top: 90px; 
+}
+
+
 /* call to actions */
 .upload-cta {
     text-align: center;
