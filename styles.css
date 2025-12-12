@@ -261,20 +261,20 @@ nav a.active {
 }
 
 .tab {
-  padding: 10px 16px;
-  background: #f2f6fc;
-  border: 2px solid #d7e3f7;
+padding: 10px 16px;
+  background: #F5E6D3; 
+  border: 2px solid #C29A6A; 
   border-radius: 8px;
-  font-family: 'Ledger', serif;
+  font-family: 'Comme', sans-serif;
   font-size: clamp(0.9rem, 1.4vw, 1.1rem);
-  color: #2D68BA;
+  color: #7A4E2D; 
   text-decoration: none;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .tab:hover {
-  background: #2D68BA;
-  color: white;
+ background: #D67A2E;
+  color: #ffffff;
   transform: translateY(-3px);
 }
 
